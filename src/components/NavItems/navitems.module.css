@@ -1,0 +1,18 @@
+.NavItems {
+    list-style: none;   
+    text-align: start;
+    text-transform: uppercase;
+    margin-top: 20%;
+}
+
+@media (min-width: 784px) {
+    .NavItems {
+        display: flex;
+        flex-flow: row;
+        justify-content: flex-end;
+        margin-top: 0;
+        text-transform: none;
+    }
+}
+
+

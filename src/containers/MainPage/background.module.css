@@ -1,0 +1,42 @@
+.Background {
+    height: 100%;
+    background-size: cover;
+    overflow: hidden;
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+}
+.Image {
+    width: 33%;
+    height: auto;
+    margin-left: 7%;
+    content: url('../../media//Background//background.png');
+}
+
+.InfoBox {
+    margin-left: 10%;
+    height: auto;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    margin-bottom: 5%;
+}
+
+@media (max-width: 584px) {
+    .Image {
+        display: none;
+    }
+    .Background {
+        width: auto;
+        height: 100%;
+        background-image: url('../../media//Background//mobilebg.jpg');
+        flex-flow: column;
+        justify-content: space-around;
+    }
+
+    .InfoBox{
+        margin-left: 0;
+        margin-top: 100%;
+        margin-bottom: 0;
+    }
+}

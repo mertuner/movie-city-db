@@ -1,0 +1,26 @@
+.Logo {
+    font-family: 'Lobster', cursive;
+    font-size: 24px;
+    font-weight: 100;
+    margin: 0 0 0 120px;
+    width: 100%;
+    text-align: left;
+}
+
+@media (max-width: 784px){
+    .Logo{
+        padding-top: 2%;
+        margin: 0 0 0 40px;
+        z-index: 1000;
+        font-size: 22px;
+    }
+}
+
+
+@media (max-width: 584px){
+    .Logo{
+        padding-top: 2%;
+        margin: 0 0 0 40px;
+        font-size: 20px;
+    }
+}

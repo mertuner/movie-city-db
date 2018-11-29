@@ -1,0 +1,39 @@
+
+@media (max-width: 784px) {
+
+.Container {
+    display: inline-block;
+    cursor: pointer;
+    padding-top: 2%;
+}
+
+.Bar1, .Bar2, .Bar3 {
+    width: 25px;
+    height: 2px;
+    background-color: #333;
+    margin: 6px 0; 
+    transition: 0.4s;
+}
+
+.Change {
+    display: inline-block;
+    cursor: pointer;
+    padding-top: 2%;
+    z-index: 1000;
+    position: fixed;
+}
+.Change .Bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+    transform: rotate(-45deg) translate(-7px, 6px);
+    background-color: rgba(255,255,255, 0.7);
+}
+
+.Change .Bar2 {opacity: 0;}
+
+.Change .Bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px);
+    transform: rotate(45deg) translate(-5px, -5px);
+    background-color: rgba(255,255,255, 0.7);
+}
+
+}

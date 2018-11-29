@@ -1,0 +1,16 @@
+.Header2 {
+    display: flex;
+    font-family: 'Quicksand', sans-serif;;
+    font-size: 0.9em;
+    color: black;
+    justify-content: center;
+    margin-bottom: 10%;
+}
+
+
+@media (min-width: 784px) {
+    .Header2 {
+        flex-direction: row;
+        font-size: 1.2em;
+    }
+}

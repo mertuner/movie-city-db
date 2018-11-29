@@ -1,0 +1,29 @@
+.Search {
+    margin-top: 8%;
+    text-align: center;
+    border: 0;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+    outline: 0;
+    width: 28%;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 0.8em;
+}
+
+.Search:focus::-webkit-input-placeholder { color:transparent; }
+.Search:focus:-moz-placeholder { color:transparent; } /* FF 4-18 */
+.Search:focus::-moz-placeholder { color:transparent; } /* FF 19+ */
+.Search:focus:-ms-input-placeholder { color:transparent; } /* IE 10+ */
+
+
+@media (max-width: 784px) {
+    .Search{
+        margin-top: 13%;
+    }
+}
+
+
+@media (max-width: 584px) {
+    .Search{
+        margin-top: 20%;
+    }
+}

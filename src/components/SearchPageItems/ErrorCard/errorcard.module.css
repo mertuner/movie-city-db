@@ -1,0 +1,22 @@
+.Container {
+    margin-top: 10%;
+}
+
+
+li {
+    margin-top: 15px;
+    text-align: start;
+}
+
+h3{
+    margin-top: 7%;
+}
+
+@media (max-width: 584px) {
+    .Container {
+        margin-top: 30%;
+    }
+    li {
+        margin-top: 25px;
+    }
+}

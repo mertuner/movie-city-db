@@ -1,0 +1,27 @@
+.Header1 {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 3em;
+    color: black;
+    padding-bottom: 10%;
+}
+
+
+@media (min-width: 584px) and (max-width: 784px){
+    .Header1 {
+        font-size: 3em;
+    }
+}
+
+@media (min-width: 784px){
+    .Header1 {
+        font-size: 4em;
+        
+    }
+}
+
+
+@media (min-width: 1500px){
+    .Header1{
+        font-size: 5em;
+    }
+}

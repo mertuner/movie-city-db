@@ -1,0 +1,23 @@
+.Toolbar {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 5%;
+    margin-top: 4%;
+    align-items: center;
+}
+
+
+.DesktopOnly {
+    width: 100%;
+}
+
+
+
+@media (max-width: 784px) {
+    .Toolbar {
+        height: 42.53px;
+    }
+    .DesktopOnly {
+        display: none;
+    }
+}

@@ -1,0 +1,46 @@
+.MovieCard {
+    width: 402.5px;
+    height: 230px;
+    box-shadow: 0 5px 6px #ccc;
+    margin: 5% 5% 5% 5%;
+    transition: 0.2s ease-out; 
+}
+
+.Icon {
+    width: 30px;
+    height: 30px;
+    background: url('../../../../media/Icons/istanbul.svg');
+}
+
+.Movie {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 0.9em;
+    line-height: 30px;
+    margin: 0 0 0 15px;
+    text-align: center;
+}
+
+.Exp {
+    display: flex;
+    margin: 10px 10px 0 10px;
+    padding-bottom: 5px;
+    /* border-bottom: 0.7px solid rgba(0,0,0,1); */
+}
+
+.Image {
+    background-size: cover;
+    height: 185px;
+    width: 100%;
+    transition: 0.2s ease-out; 
+}
+
+/* @media (min-width: 784px) {
+    .MovieCard:hover{
+        width: 430px;
+        height: 240px;
+    }
+    .MovieCard:hover .Image{
+        height: 205px;
+        width: 100%;
+    }
+} */
