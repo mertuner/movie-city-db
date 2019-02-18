@@ -2,7 +2,6 @@
 This application dedicates to keep data about movies and the cities. 
 
 - Easy User Interaction
-- Providing good UX
 - Open database
 - Fully responsive web application
 - Powered by TMDb and Firebase APIs
